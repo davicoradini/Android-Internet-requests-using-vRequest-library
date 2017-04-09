@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.andyfriends.vrequest.VRequest;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Object response) {
                         status.setText("error - check Internet permission on Manifest");
+                    }
+                })
+                .onError(new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
                     }
                 })
                 .fetch();
