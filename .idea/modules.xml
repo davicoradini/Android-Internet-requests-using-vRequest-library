@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UsingVRequest.iml" filepath="$PROJECT_DIR$/UsingVRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-Internet-requests-using-vRequest-library.iml" filepath="$PROJECT_DIR$/Android-Internet-requests-using-vRequest-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/vrequest/vrequest.iml" filepath="$PROJECT_DIR$/vrequest/vrequest.iml" />
     </modules>
